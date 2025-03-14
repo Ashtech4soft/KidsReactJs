@@ -45,7 +45,7 @@ function ViewCharitProduct() {
                                     </td> */}
                                     <td>
                                         <img
-                                            src={${BASE_URL}${product.image}`}
+                                            src={`${BASE_URL}${product.image}`}
                                             alt={product.name}
                                             style={{ width: '50px', height: '50px', objectFit: 'cover' }}
                                         />

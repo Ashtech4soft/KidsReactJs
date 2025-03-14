@@ -32,7 +32,7 @@ function ShopByCategory() {
                                 price={product.price}
                                 desc={product.description}
                                 product={product}
-                                image={${BASE_URL}${product.productImage}`}
+                                image={`${BASE_URL}${product.productImage}`}
                             />
                         </div>
                     </div>

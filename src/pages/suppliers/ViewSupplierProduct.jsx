@@ -69,7 +69,7 @@ const SupplierProduct = () => {
                                                             <td>
                                                                 {product.productImage ? (
                                                                     <img
-                                                                        src={${BASE_URL}${product.productImage}`}
+                                                                        src={`${BASE_URL}${product.productImage}`}
                                                                         alt="Employee"
                                                                         style={{ width: '50px', height: '50px', objectFit: 'cover' }}
                                                                     />

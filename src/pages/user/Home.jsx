@@ -130,7 +130,7 @@ const Home = () => {
                   <div className="icon-box text-center w-100 p-3 shadow-sm rounded" data-aos="fade-up" data-aos-delay="100">
                     <div className="">
                       <img
-                        src={${BASE_URL}${cate.image}`}
+                        src={`${BASE_URL}${cate.image}`}
                         alt={cate.category_name}
                         className="img-fluid rounded"
                         style={{ height: '150px', width: '100%', objectFit: 'cover' }}
@@ -163,7 +163,7 @@ const Home = () => {
                       price={product.price}
                       desc={product.description}
                       product={product}
-                      image={${BASE_URL}${product.productImage}`}
+                      image={`${BASE_URL}${product.productImage}`}
                     />
                   </div>
                 </div>

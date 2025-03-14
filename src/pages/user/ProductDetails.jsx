@@ -57,7 +57,7 @@ function ProductDetails() {
                 <div className="d-flex flex-wrap justify-content-center align-items-center ">
                     <div className="me-4">
                         <img
-                            src={${BASE_URL}${details.productImage}`}
+                            src={`${BASE_URL}${details.productImage}`}
                             alt={details.name}
                             className="img-fluid rounded shadow-lg"
                             style={{  height: '500px' }}

@@ -72,7 +72,7 @@ const ViewSupplier = () => {
                                                             <td>
                                                                 {user.file ? (
                                                                     <img
-                                                                        src={${BASE_URL}${user.file}`}
+                                                                        src={`${BASE_URL}${user.file}`}
                                                                         alt="Employee"
                                                                         style={{ width: '50px', height: '50px', objectFit: 'cover' }}
                                                                     />

@@ -119,7 +119,7 @@ function Charity() {
                 {products?.map((product) => (
                     <div key={product._id} className="col-md-4 mb-3">
                         <div className="card">
-                            <img src={${BASE_URL}${product.image}`} style={{ height: 250, objectFit: 'cover' }} className="card-img-top" alt={product.name} />
+                            <img src={`${BASE_URL}${product.image}`} style={{ height: 250, objectFit: 'cover' }} className="card-img-top" alt={product.name} />
                             <div className="card-body">
                                 <h5 className="card-title">{product.name}</h5>
                                 <p className="card-text">{product.description}</p>
