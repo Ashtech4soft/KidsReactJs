@@ -3,6 +3,7 @@ import { useDispatch, useSelector } from 'react-redux'
 import ProductCard from '../../components/user/ProductCard'
 import { fetchProduct } from '../../store/productSlice'
 import { useNavigate } from 'react-router-dom'
+import { BASE_URL } from "../lib/apiUrl";
 
 const Home = () => {
 

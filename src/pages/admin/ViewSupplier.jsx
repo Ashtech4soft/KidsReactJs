@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import { useDispatch, useSelector } from 'react-redux';
 import { usersFetch } from '../../store/userSlice';
 import { fetchSuppliers } from '../../store/SupplierSlice';
+import { BASE_URL } from "../lib/apiUrl";
 
 const ViewSupplier = () => {
 

@@ -1,6 +1,7 @@
 import React, { useEffect, useMemo, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { addToCart, decreasequantity, fetchCart, orderProduct, removeFromCart, } from "../../store/productSlice"; // Add updateCart and removeFromCart actions
+import { BASE_URL } from "../lib/apiUrl";
 
 function Cart() {
     const dispatch = useDispatch();

@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { useParams } from 'react-router-dom';
 import { fetchMaternityProductbyCategory, maternityProductOrder } from '../../store/productSlice';
+import { BASE_URL } from "../lib/apiUrl";
 
 function ProductByMaternityCategory() {
     const { cate: category } = useParams();

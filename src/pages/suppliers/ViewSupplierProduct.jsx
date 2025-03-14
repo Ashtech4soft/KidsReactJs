@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import { useDispatch, useSelector } from 'react-redux';
 import { fetchProduct, fetchsupplierProduct } from '../../store/productSlice';
 import SupplierSide from '../../components/supplier/supplierSide';
+import { BASE_URL } from "../lib/apiUrl";
 
 const SupplierProduct = () => {
     const [users, setUsers] = useState([]);
