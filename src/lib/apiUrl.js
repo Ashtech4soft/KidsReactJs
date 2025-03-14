@@ -1,6 +1,7 @@
 import axios from "axios";
 
-const BASE_URL = "http://localhost:4000/";
+// const BASE_URL = "http://localhost:4000/";
+const BASE_URL = "https://kidsnodejs.onrender.com/";
 
 // Function to get the token dynamically
 const getToken = () => {
