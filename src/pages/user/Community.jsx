@@ -141,7 +141,7 @@ function Community() {
                     {Communities?.map(comm => (
                         <div key={comm._id} className="col-md-4 mb-4">
                             <div className="card" style={{ cursor: 'pointer' }}>
-                                <img src={`http://localhost:4000/${comm.file}`}
+                                <img src={${BASE_URL}${comm.file}`}
                                     onClick={() => {
                                         if (communityMembers?.some((member) => member.communityId === comm._id && member.userId._id === id) || comm.admin === id) {
                                             navigate(`/communityActivity/${comm._id}`)

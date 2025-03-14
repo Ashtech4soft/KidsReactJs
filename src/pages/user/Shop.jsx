@@ -72,7 +72,7 @@ function Shop() {
                                 price={product.price}
                                 desc={product.description}
                                 product={product}
-                                image={`http://localhost:4000/${product.productImage}`}
+                                image={${BASE_URL}${product.productImage}`}
                             />
                         </div>
                     </div>

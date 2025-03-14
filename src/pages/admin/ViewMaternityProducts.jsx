@@ -43,7 +43,7 @@ function ViewMaternityProducts() {
                                     <td style={{ border: '1px solid #ddd', padding: '8px' }}>{product.MaternityCategory}</td>
                                     <td style={{ border: '1px solid #ddd', padding: '8px' }}>{product.description}</td>
                                     <td style={{ border: '1px solid #ddd', padding: '8px' }}>${product.price}</td>
-                                    <td style={{ border: '1px solid #ddd', padding: '8px' }}>{product.image && <img src={`http://localhost:4000/${product.image}`} alt={product.productName} style={{ width: '50px' }} />}</td>
+                                    <td style={{ border: '1px solid #ddd', padding: '8px' }}>{product.image && <img src={`${BASE_URL}${product.image}`} alt={product.productName} style={{ width: '50px' }} />}</td>
                                 </tr>
                             ))}
                         </tbody>

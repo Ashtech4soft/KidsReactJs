@@ -134,7 +134,7 @@ const OrderTable = ({ role, orders, users, suppliers, Communities, handleStatusC
                                 <td>{index + 1}</td>
                                 <td className="d-flex align-items-center">
                                     <img
-                                        src={`http://localhost:4000/${order.itemId?.productImage || order.itemId?.image || null}`}
+                                        src={`${BASE_URL}${order.itemId?.productImage || order.itemId?.image || null}`}
                                         alt={order.itemId.name}
                                         className="rounded me-2"
                                         style={{ width: "50px", height: "50px" }}

@@ -71,7 +71,7 @@ const ViewCharitys = () => {
                                                             <td>
                                                                 {user.file && (
                                                                     <img
-                                                                        src={`http://localhost:4000/${user.file}`}
+                                                                        src={`${BASE_URL}${user.file}`}
                                                                         alt="Employee"
                                                                         style={{ width: '50px', height: '50px', objectFit: 'cover' }}
                                                                     />

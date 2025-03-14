@@ -63,7 +63,7 @@ function ProductByMaternityCategory() {
                                     <div className="card shadow-lg p-3 rounded border-0" style={{ backgroundColor: '#fff', borderRadius: '15px' }}>
                                         {product.image && (
                                             <img
-                                                src={`http://localhost:4000/${product.image}`}
+                                                src={${BASE_URL}${product.image}`}
                                                 className="card-img-top rounded"
                                                 alt={product.productName}
                                                 style={{ height: '220px', objectFit: 'cover' }}

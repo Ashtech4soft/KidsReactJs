@@ -71,7 +71,7 @@ const ViewProduct = () => {
                                                             <td>
                                                                 {product.productImage ? (
                                                                     <img
-                                                                        src={`http://localhost:4000/${product.productImage}`}
+                                                                        src={`${BASE_URL}${product.productImage}`}
                                                                         alt="Employee"
                                                                         style={{ width: '50px', height: '50px', objectFit: 'cover' }}
                                                                     />

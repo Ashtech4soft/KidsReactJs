@@ -77,7 +77,7 @@ function Profile() {
                 <div className="card p-4 shadow-lg w-75 mt-5">
                     <h2 className="fw-bold mb-4 text-center"> Profile</h2>
                     <input type="file" style={{ display: 'none' }} ref={imageRef} disabled={!editMode} />
-                    <img src={file || `http://localhost:4000/${user?.file} `} onChange={handleFileChange} onClick={imageChange} style={{ width: 100, height: 100, borderRadius: 50, display: 'flex', margin: 'auto' }} alt="" />
+                    <img src={file || ${BASE_URL}${user?.file} `} onChange={handleFileChange} onClick={imageChange} style={{ width: 100, height: 100, borderRadius: 50, display: 'flex', margin: 'auto' }} alt="" />
                     <div className="mb-3 mt-3">
                         <label className="form-label fw-semibold">Name</label>
                         <input

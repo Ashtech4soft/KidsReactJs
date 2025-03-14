@@ -41,7 +41,7 @@ function CommunityActivites() {
                     <div className="card shadow-sm hover-shadow rounded-lg border-0">
                         <div className="position-relative">
                             <img
-                                src={`http://localhost:4000/${singleCommu?.file}`}
+                                src={${BASE_URL}${singleCommu?.file}`}
                                 className="card-img-top rounded-top"
                                 style={{ height: 250, objectFit: 'cover' }}
                                 alt={singleCommu?.name}

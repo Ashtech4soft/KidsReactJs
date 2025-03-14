@@ -47,7 +47,7 @@ const AddCustomer = () => {
 
     try {
       const response = await axios.post(
-        'http://localhost:4000/users/addUser',
+        `${BASE_URL}users/addUser`,
         formDataObject,
         {
           headers: {

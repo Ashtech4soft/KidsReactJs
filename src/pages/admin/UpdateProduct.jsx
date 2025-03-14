@@ -80,7 +80,7 @@ function UpdateProduct() {
                         <div className="row">
                             <div className="col-md-6 position-relative">
                                 <img
-                                    src={imgpreview || `http://localhost:4000/${currentProduct.productImage}`}
+                                    src={imgpreview || `${BASE_URL}${currentProduct.productImage}`}
                                     style={{ height: 500, width: 500, objectFit: 'cover' }}
                                     alt={currentProduct.name}
                                     className="img-fluid rounded"

@@ -61,7 +61,7 @@ function Cart() {
                         {cartItems.map((item, index) => (
                             <div key={index} className="d-flex border rounded p-3 mb-3 bg-light shadow-sm">
                                 <img
-                                    src={`http://localhost:4000/${item.productId.productImage}`}
+                                    src={${BASE_URL}${item.productId.productImage}`}
                                     alt={item.productId.name}
                                     className="img-fluid rounded"
                                     style={{ width: "100px", height: "100px", objectFit: "cover" }}

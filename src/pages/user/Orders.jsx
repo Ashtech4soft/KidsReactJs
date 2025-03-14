@@ -51,7 +51,7 @@ function Orders() {
                                 <div key={order._id} className="col-md-4 mb-4">
                                     <div className="card shadow-sm">
                                         <img
-                                            src={`http://localhost:4000/${order?.itemId?.productImage}`}
+                                            src={${BASE_URL}${order?.itemId?.productImage}`}
                                             alt={order?.itemId?.name}
                                             className="card-img-top"
                                             style={{ height: "200px", objectFit: "cover" }}
@@ -83,7 +83,7 @@ function Orders() {
                                 <div key={order._id} className="col-md-4 mb-4">
                                     <div className="card shadow-sm">
                                         {order.itemId.image ? <img
-                                            src={`http://localhost:4000/${order.itemId.image}`}
+                                            src={${BASE_URL}${order.itemId.image}`}
                                             alt={order.itemId.productName}
                                             className="card-img-top"
                                             style={{ height: "200px", objectFit: "cover" }}
