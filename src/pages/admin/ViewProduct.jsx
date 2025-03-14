@@ -4,7 +4,7 @@ import AdminSide from "../../components/admin/AdminSide";
 import { Link } from "react-router-dom";
 import { useDispatch, useSelector } from 'react-redux';
 import { fetchProduct } from '../../store/productSlice';
-import { BASE_URL } from "../lib/apiUrl";
+import { BASE_URL } from "../../lib/apiUrl";
 
 const ViewProduct = () => {
     const [users, setUsers] = useState([]);

@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { deleteProduct, getSingleProduct, updateProductDetails } from '../../store/productSlice'
 import { useNavigate, useParams } from 'react-router-dom'
-import { BASE_URL } from "../lib/apiUrl";
+import { BASE_URL } from "../../lib/apiUrl";
 
 function UpdateProduct() {
 

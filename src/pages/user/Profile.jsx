@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux';
 import { updateduserProfile, userProfile } from '../../store/userSlice';
 import { useNavigate } from 'react-router-dom';
-import { BASE_URL } from "../lib/apiUrl";
+import { BASE_URL } from "../../lib/apiUrl";
 
 function Profile() {
     const { user } = useSelector((state) => ({

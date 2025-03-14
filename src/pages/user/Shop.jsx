@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { fetchAllCategory, fetchProduct } from '../../store/productSlice';
 import ProductCard from '../../components/user/ProductCard';
-import { BASE_URL } from "../lib/apiUrl";
+import { BASE_URL } from "../../lib/apiUrl";
 
 function Shop() {
 

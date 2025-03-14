@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 import CharitySide from '../../components/charity/CharitySide';
 import { useDispatch, useSelector } from 'react-redux';
 import { getProductByCharity } from '../../store/charitySlice';
-import { BASE_URL } from "../lib/apiUrl";
+import { BASE_URL } from "../../lib/apiUrl";
 
 function ViewCharitProduct() {
     const { charityProducts } = useSelector((state) => ({

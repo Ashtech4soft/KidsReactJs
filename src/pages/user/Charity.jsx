@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import axios from 'axios';
 import { addCharityPRoduct, deleteCharityProduct, fetchCharity, getCharityProduct } from '../../store/charitySlice';
-import { BASE_URL } from "../lib/apiUrl";
+import { BASE_URL } from "../../lib/apiUrl";
 
 function Charity() {
     const { charitys, products } = useSelector((state) => ({

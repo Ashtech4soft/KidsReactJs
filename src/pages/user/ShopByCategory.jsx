@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from 'react-redux'
 import { shopByCategory } from '../../store/productSlice'
 import { useSearchParams } from 'react-router-dom'
 import ProductCard from '../../components/user/ProductCard'
-import { BASE_URL } from "../lib/apiUrl";
+import { BASE_URL } from "../../lib/apiUrl";
 
 function ShopByCategory() {
     const { productByCategory } = useSelector((state) => ({

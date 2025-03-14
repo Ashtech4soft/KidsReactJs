@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from 'react-redux'
 import { addCommunity, deleteCommunity, fetchCommunity, fetchcommunityMembers, handleRemoveMember, joinCommunity, leaveCommunity } from '../../store/communitySlice'
 import { useNavigate } from 'react-router-dom'
 // import 'bootstrap/dist/css/bootstrap.min.css'
-import { BASE_URL } from "../lib/apiUrl";
+import { BASE_URL } from "../../lib/apiUrl";
 
 function Community() {
     const [community, setCommunity] = useState({

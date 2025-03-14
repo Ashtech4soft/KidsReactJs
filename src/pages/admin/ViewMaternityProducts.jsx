@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { fetchmaternityProducts } from '../../store/productSlice'
 import AdminSide from '../../components/admin/AdminSide'
-import { BASE_URL } from "../lib/apiUrl";
+import { BASE_URL } from "../../lib/apiUrl";
 
 function ViewMaternityProducts() {
 
