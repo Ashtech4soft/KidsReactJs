@@ -6,6 +6,7 @@ import { useDispatch } from 'react-redux';
 import { addSupplier } from '../../store/SupplierSlice';
 import { addCommunity } from '../../store/communitySlice';
 import { addCharity } from '../../store/charitySlice';
+import { BASE_URL } from "../../lib/apiUrl";
 
 
 const Register = () => {
@@ -55,10 +56,9 @@ const Register = () => {
             formDataObject.append('file', file); // Append file if provided
         }
         if (formData.role === 'user') {
-
             try {
                 const response = await axios.post(
-                    'http://localhost:4000/users/addUser',
+                    `${BASE_URL}users/addUser`,
                     formDataObject,
                     {
                         headers: {
